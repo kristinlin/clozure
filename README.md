@@ -20,7 +20,7 @@ one for generating a random array of a given size,
 another for timing the time taken to run QuickSort,  
 and another for taking the average of QuickSort a given number of times.
 
-Times:
+Times:  
 Average of size 1, with 2 000 times: 18  
 Average of size 10, with 2 000 times: 211  
 Average of size 100, with 2 000 times: 3483  
