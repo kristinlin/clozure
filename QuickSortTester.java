@@ -1,3 +1,8 @@
+//Team clozure (Kenny Chen, Kristin Lin, Jake Zaia)
+//APCS2 pd01
+//Lab#01 -- What Does the Data Say?
+//2017-03-10 
+
 public class QuickSortTester 
 {
     //create an array
