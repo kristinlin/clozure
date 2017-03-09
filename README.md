@@ -13,3 +13,21 @@ The median point O(nlogn)
 
 4. Approach to handling duplicate values in array:  
 No difference.
+
+Mechanism for Testing:  
+Three methods were created to ease the readability of the Quicksort testing:  
+one for generating a random array of a given size,  
+another for timing the time taken to run QuickSort,  
+and another for taking the average of QuickSort a given number of times.
+
+Times:
+Average of size 1, with 2 000 times: 18  
+Average of size 10, with 2 000 times: 211  
+Average of size 100, with 2 000 times: 3483  
+Average of size 1 000, with 2 000 times: 38607 
+Average of size 5 000, with 2 000 times: 224488  
+Average of size 10 000, with 2 000 times: 561229  
+Average of size 50 000, with 2 000 times: 6112306  
+Average of size 100 000, with 2 000 times: 20202676  
+Average of size 500 000, with 2 000 times: 419995091  
+
