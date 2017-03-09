@@ -15,7 +15,7 @@ The median point O(nlogn)
 No difference.
 
 Mechanism for Testing:  
-Three methods were created to ease the readability of the Quicksort testing:  
+Three methods were created to ease Quicksort testing:  
 1. generate a random array of a given size,  
 2. time the time taken to run QuickSort,  
 3. take the average of running QuickSort a given number of times.
