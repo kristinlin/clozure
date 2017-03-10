@@ -10,11 +10,9 @@ Repeat this until the bounds converge, and the list is sorted.
 The median point is continuously chosen as pivot each time partition is called. This will divide the array in half, logn times, and partition, O(n), would be called for each halved array. Runtime would be O(nlogn).
  
 3. Worst case:
-
 The greatest or the least number in the section is continuously chosen as pivot each time partition is called. Partition, O(n), would be called for all n elements of the array. Runtime would be O(n^2).
 
 4. Average or most likely case:
-
 It is unlikely that partition will be continuously called on the extreme values of the array, or the section of the array examined. This grows increasingly true as the array sizes increase, for there are more values to choose from for pivot. Thus, runtime is an amortized O(nlogn).
 
 ###Methodology
