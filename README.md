@@ -38,4 +38,4 @@ Average of size 100 000, with 2 000 times: 20202676
 Average of size 500 000, with 2 000 times: 419995091  
 
 ###Analysis: 
-Awaiting graphs
+https://docs.google.com/a/stuy.edu/document/d/1XnWP2ppTH6qnMkC-CA7Zv1eBx0UVC-gFu1npCO8w-JQ/edit?usp=sharing
