@@ -6,7 +6,6 @@ With each recursive call, run partition on the 2 sections of the array to the le
 Repeat this until the bounds converge, and the list is sorted.
 
 2. Best case:
-
 The median point is continuously chosen as pivot each time partition is called. This will divide the array in half, logn times, and partition, O(n), would be called for each halved array. Runtime would be O(nlogn).
  
 3. Worst case:
