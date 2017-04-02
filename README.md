@@ -14,19 +14,19 @@ The greatest or the least number in the section is continuously chosen as pivot 
 4. Average or most likely case:
 It is unlikely that partition will be continuously called on the extreme values of the array, or the section of the array examined. This grows increasingly true as the array sizes increase, for there are more values to choose from for pivot. Thus, runtime is an amortized O(nlogn).
 
-###How Pivot Selection and Data Arrangement Affect Execution Time: 
+### How Pivot Selection and Data Arrangement Affect Execution Time: 
 QuickSort takes the middle value of the unsorted array as pivot. If the data is arranged with the least value in the middle slot and every increasing value building on at sides (or the alternative: the greatest value in middle slot and decreasing values building on at both sides), the least or greatest value will continuously be chosen. This will force QuickSort to traverse the array of n elements. 
 ex) {6, 4, 2, 1, 3, 5, 7} or {2, 4, 6, 7, 5, 3, 1}
 However, if the median value is in the middle slot each time, in which case the given array will be already sorted, QuickSort will run partition only logn times.
 ex) {1, 2, 3, 4, 5, 6, 7, 8}
 
-###Methodology
+### Methodology
 Three methods were created to ease Quicksort testing:  
 1. generate a random array of a given size,  
 2. time the time taken to run QuickSort,  
 3. take the average of running QuickSort a given number of times.
 
-###Times:  
+### Times:  
 Average of size 1, with 2 000 times: 18  
 Average of size 10, with 2 000 times: 211  
 Average of size 100, with 2 000 times: 3483  
@@ -37,5 +37,5 @@ Average of size 50 000, with 2 000 times: 6112306
 Average of size 100 000, with 2 000 times: 20202676  
 Average of size 500 000, with 2 000 times: 419995091  
 
-###Analysis: 
+### Analysis: 
 https://docs.google.com/a/stuy.edu/document/d/1XnWP2ppTH6qnMkC-CA7Zv1eBx0UVC-gFu1npCO8w-JQ/edit?usp=sharing
